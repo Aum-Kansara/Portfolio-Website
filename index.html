@@ -10,7 +10,7 @@
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">John Doe</div>
+      <div class="logo">Aum Kansara</div>
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
@@ -21,7 +21,7 @@
       </div>
     </nav>
     <nav id="hamburger-nav">
-      <div class="logo">John Doe</div>
+      <div class="logo">Aum Kansara</div>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
           <span></span>
@@ -38,36 +38,40 @@
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./assets/profile-pic.png" alt="John Doe profile picture" />
+        <img src="./assets/profile_picture.png" alt="John Doe profile picture" />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">John Doe</h1>
-        <p class="section__text__p2">Frontend Developer</p>
+        <h1 class="title">Aum Kansara</h1>
+        <p class="section__text__p2">Developer</p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('./assets/resume-example.pdf')"
+            onclick="window.open('./assets/CV_Aum_Kansara_AI_Engineer.pdf')"
           >
             Download CV
           </button>
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          <a href="#contact">
+          <button class="btn btn-color-1">
             Contact Info
           </button>
+        </a>
         </div>
         <div id="socials-container">
+          <a href="https://www.linkedin.com/in/aum-kansara/" target="_blank">
           <img
             src="./assets/linkedin.png"
             alt="My LinkedIn profile"
             class="icon"
-            onclick="location.href='https://linkedin.com/'"
           />
+          </a>
+          <a href="https://github.com/Aum-Kansara" target="_blank">
           <img
             src="./assets/github.png"
             alt="My Github profile"
             class="icon"
-            onclick="location.href='https://github.com/'"
           />
+        </a>
         </div>
       </div>
     </section>
@@ -77,21 +81,30 @@
       <div class="section-container">
         <div class="section__pic-container">
           <img
-            src="./assets/about-pic.png"
+            src="./assets/Aum_Kansara.png"
             alt="Profile picture"
             class="about-pic"
           />
         </div>
         <div class="about-details-container">
           <div class="about-containers">
-            <div class="details-container">
+            <div class="details-container" style="border: 2px solid green;">
               <img
                 src="./assets/experience.png"
                 alt="Experience icon"
                 class="icon"
               />
               <h3>Experience</h3>
-              <p>2+ years <br />Frontend Development</p>
+              <p>Currently Working @ <a href="https://www.tcs.com/" target="_blank" style="text-decoration: none;">TCS</a></span><br /><b>System Engineer</b></p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Internship</h3>
+              <p>3 Months<br/>as<br /><b>LLM App Developer</b></p>
             </div>
             <div class="details-container">
               <img
@@ -100,10 +113,10 @@
                 class="icon"
               />
               <h3>Education</h3>
-              <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
+              <p><b>B.Tech CSE</b><br />Specialization in <b>Artificial Intelligence</b></p>
             </div>
           </div>
-          <div class="text-container">
+          <!-- <div class="text-container">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
               reprehenderit et laborum, rem, dolore eum quod voluptate
@@ -112,21 +125,94 @@
               Eligendi illum libero dolorum cum laboriosam corrupti quidem,
               reiciendis ea magnam? Nulla, impedit fuga!
             </p>
-          </div>
+          </div> -->
         </div>
       </div>
+      <a href="#about">
       <img
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#experience'"
       />
+    </a>
     </section>
     <section id="experience">
       <p class="section__text__p1">Explore My</p>
       <h1 class="title">Experience</h1>
       <div class="experience-details-container">
         <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">AI & Machine Learning</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Numpy</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Pandas</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Langchain</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TensorFlow</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>OpenCV</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Transformers</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              
+            </div>
+          </div>
           <div class="details-container">
             <h2 class="experience-sub-title">Frontend Development</h2>
             <div class="article-container">
@@ -138,7 +224,7 @@
                 />
                 <div>
                   <h3>HTML</h3>
-                  <p>Experienced</p>
+                  <p>Intermediate</p>
                 </div>
               </article>
               <article>
@@ -149,7 +235,7 @@
                 />
                 <div>
                   <h3>CSS</h3>
-                  <p>Experienced</p>
+                  <p>Intermediate</p>
                 </div>
               </article>
               <article>
@@ -159,7 +245,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>SASS</h3>
+                  <h3>React</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
@@ -171,7 +257,7 @@
                 />
                 <div>
                   <h3>JavaScript</h3>
-                  <p>Basic</p>
+                  <p>Experienced</p>
                 </div>
               </article>
               <article>
@@ -181,8 +267,8 @@
                   class="icon"
                 />
                 <div>
-                  <h3>TypeScript</h3>
-                  <p>Basic</p>
+                  <h3>Tailwind CSS</h3>
+                  <p>Intermediate</p>
                 </div>
               </article>
               <article>
@@ -192,14 +278,14 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Material UI</h3>
+                  <h3>Bootstrap</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
             </div>
           </div>
           <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
+            <h2 class="experience-sub-title">Backend Development</h2>
             <div class="article-container">
               <article>
                 <img
@@ -208,8 +294,8 @@
                   class="icon"
                 />
                 <div>
-                  <h3>PostgreSQL</h3>
-                  <p>Basic</p>
+                  <h3>Python</h3>
+                  <p>Experienced</p>
                 </div>
               </article>
               <article>
@@ -220,7 +306,7 @@
                 />
                 <div>
                   <h3>Node JS</h3>
-                  <p>Intermediate</p>
+                  <p>Experienced</p>
                 </div>
               </article>
               <article>
@@ -230,7 +316,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Express JS</h3>
+                  <h3>Java</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
@@ -242,19 +328,44 @@
                 />
                 <div>
                   <h3>Git</h3>
-                  <p>Intermediate</p>
+                  <p>Experienced</p>
                 </div>
               </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Flask</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Linux</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              
             </div>
           </div>
+          
         </div>
       </div>
+      <a href="#projects">
       <img
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#projects'"
       />
+    </a>
     </section>
     <section id="projects">
       <p class="section__text__p1">Browse My Recent</p>
@@ -264,84 +375,96 @@
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-1.png"
+                src="./assets/Symptomite.png"
                 alt="Project 1"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project One</h2>
+            <h2 class="experience-sub-title project-title">Symptomite</h2>
             <div class="btn-container">
+              <a href="https://github.com/Aum-Kansara/Disease-Prediction-From-Given-Symptoms" target="_blank">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
               >
-                Github
+                Code
               </button>
+            </a>
+            <a href="https://disease-prediction-system-ovsk.onrender.com/" target="_blank">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
               >
                 Live Demo
               </button>
+            </a>
             </div>
           </div>
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-2.png"
+                src="./assets/Exam_Guider.png"
                 alt="Project 2"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Two</h2>
+            
+            <h2 class="experience-sub-title project-title">Exam Guider</h2>
+            <a href="">
             <div class="btn-container">
+              <a href="https://github.com/Aum-Kansara/Exam-Guider" target="_blank">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
               >
-                Github
+                Code
               </button>
+            </a>
+            <a href="https://exam-guider-aum-kansara.koyeb.app/" target="_blank">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
               >
                 Live Demo
               </button>
+            </a>
             </div>
           </div>
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-3.png"
+                src="./assets/EduRecX.png"
                 alt="Project 3"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <h2 class="experience-sub-title project-title">EduRecX</h2>
             <div class="btn-container">
+              <a href="https://github.com/Aum-Kansara/EduRecX" target="_blank">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
               >
-                Github
+                Code
               </button>
+            </a>
+              <a href="https://edurecx.onrender.com/" target="_blank">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
               >
                 Live Demo
               </button>
+            </a>
             </div>
           </div>
         </div>
       </div>
+      <p class="section__text__p1">Want to See All Projects??  <b><a href="https://github.com/Aum-Kansara?tab=repositories" target="_blank">Click Here</a></b></p>
+      <a href="#contact">
       <img
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#contact'"
       />
+    </a>
     </section>
+    <br>
+    <br>
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
@@ -352,7 +475,7 @@
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
-          <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+          <p><a href="mailto:examplemail@gmail.com">aumkan23@gmail.com</a></p>
         </div>
         <div class="contact-info-container">
           <img
@@ -360,7 +483,7 @@
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
-          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+          <p><a href="https://www.linkedin.com/in/aum-kansara">LinkedIn</a></p>
         </div>
       </div>
     </section>
@@ -375,7 +498,7 @@
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; 2023 John Doe. All Rights Reserved.</p>
+      <p>Copyright &#169; 2024 Aum Kansara. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
   </body>
